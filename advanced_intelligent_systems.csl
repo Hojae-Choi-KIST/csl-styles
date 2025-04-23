@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>Advanced Intelligent Systems Custom Style</title>
+    <id>http://www.zotero.org/styles/advanced-intelligent-systems-custom</id>
+    <link href="http://www.zotero.org/styles/advanced-intelligent-systems-custom" rel="self"/>
+    <author>
+      <name>Custom by ChatGPT</name>
+    </author>
+    <category citation-format="numeric"/>
+    <updated>2025-04-22</updated>
+  </info>
+
+  <citation>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography et-al-min="8" et-al-use-first="6" second-field-align="flush">
+    <layout suffix=".">
+      <group delimiter=", ">
+        <names variable="author">
+          <name and="text" delimiter=", "/>
+        </names>
+        <text variable="title"/>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+        <text variable="container-title"/>
+        <text variable="volume"/>
+        <text variable="page"/>
+        <text variable="DOI" prefix="https://doi.org/"/>
+        <text variable="URL"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>
